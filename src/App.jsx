@@ -1,6 +1,7 @@
 import Hero from './components/Hero'
 import ProjectsShowcase from './components/ProjectsShowcase'
 import SkillsMarquee from './components/SkillsMarquee'
+import Contact from './components/Contact'
 import './index.css'
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <div className="nav-links">
           <a href="#projects">Projects</a>
           <a href="https://github.com/LeoDiaz-DataSc" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="mailto:contact@example.com">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
       </nav>
 
@@ -21,6 +22,7 @@ function App() {
         <Hero />
         <SkillsMarquee />
         <ProjectsShowcase />
+        <Contact />
       </main>
 
       <footer style={{ 
